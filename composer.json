@@ -1,0 +1,31 @@
+{
+    "name": "fatihozpolat/manual-sitemap",
+    "description": "Manual Sitemap Creator",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "FatihOzpolat\\ManualSitemap\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "FatihOzpolat\\ManualSitemap\\SitemapServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Fatih Özpolat",
+            "email": "fozpolat33@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.0",
+        "illuminate/support": "^7.0|^8.0",
+        "laravel/framework": "^7.0|^8.0",
+        "nesbot/carbon": "^2.0"
+    }
+}
